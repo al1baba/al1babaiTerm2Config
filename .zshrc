@@ -84,11 +84,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-eval "$(chef shell-init zsh)"
-
-# Fix Ruby's mistakes
-export GEM_HOME=/Users/miabrunal/.chefdk/gem/ruby/2.4.0
-export GEM_PATH=/Users/miabrunal/.chefdk/gem/ruby/2.4.0
-export GEM_ROOT=/Users/miabrunal/.chefdk/gem/ruby/2.4.0
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
